@@ -1,0 +1,10 @@
+csrf
+When session is still alive, that is, 
+database still has the cookie information 
+and user’s browser still has the current cookie, 
+the criminals will be able to get the browser cookie information 
+and then use it their fake front-end app as shown below 
+then the app can interact with the server without any authentication process. 
+We need to protect it!!!
+
+npm i --save csurf
